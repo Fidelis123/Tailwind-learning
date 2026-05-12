@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-amber-500: #f59e0b;
+    --color-cyan-50: #ecfeff;
+    --color-amber-700: #b45309;
+    --color-amber-900: #78350f;
+    --color-gray-900: #111827;
+    
+    --font-mono: 'SF Mono', SF Mono, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    
+    --font-weight-extrabold: 800;
+    
+    --spacing: 0.25rem; /* Example spacing value */
+}
